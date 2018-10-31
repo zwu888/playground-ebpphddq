@@ -1,4 +1,6 @@
-
+# description: 
+ 20000 is output.
+All sub-objects representing virtual base classes are initialized by the constructor of the most derived class.  If the constructor of the most derived class does not specify a mem-initializer for a virtual base class V, then V's default construtor is called to initialize the virtual base class subobject.
 ```C++ runnable
 #include <iostream>
 
